@@ -1,0 +1,27 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "\"Mocha\" 'npm i mocha'",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nock": "^13.1.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/register": "^7.14.5",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "supertest": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
